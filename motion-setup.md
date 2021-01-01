@@ -21,3 +21,7 @@ Press `ctrl+x` to exit. Type `y` to save and enter to conform.
 Again type in the command `sudo nano /etc/default/motion` and press enter.  
 
 Set 'start_motion_daemon' to yes. Save and exit.  
+
+Type in the command `sudo service motion restart` and press enter.  
+Again type in the command `sudo motion` and press enter.  
+Now your server is ready.
