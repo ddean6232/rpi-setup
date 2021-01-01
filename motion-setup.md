@@ -6,7 +6,7 @@ Type in the command `lsusb` and enter. You should see the name of your camera. I
 
 After the installation is complete, type in the command `sudo nano /etc/motion/motion.conf` and press enter.  
 
-Then you have to change some settings in the .conf file. It might be difficult sometimes to find the settings but use `ctrl + w` to find it. So follow the steps:  
+Then you have to change some settings in the .conf file. It might be difficult sometimes to find the settings but use `ctrl+w` to find it. So follow the steps:  
 
 Make sure 'daemon' is ON.  
 Set 'framerate' anywhere in between 1000 to 1500.  
@@ -20,4 +20,4 @@ Set 'post_capture' to 5.
 Press `ctrl+x` to exit. Type `y` to save and enter to conform.  
 Again type in the command `sudo nano /etc/default/motion` and press enter.  
 
-Set `start_motion_daemon` to yes. Save and exit.  
+Set 'start_motion_daemon' to yes. Save and exit.  
